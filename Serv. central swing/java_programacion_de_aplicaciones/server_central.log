@@ -1,0 +1,26 @@
+nov 27, 2024 11:12:26 P. M. org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: obligatoriopa]
+nov 27, 2024 11:12:26 P. M. org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version [WORKING]
+nov 27, 2024 11:12:26 P. M. org.hibernate.cfg.Environment <clinit>
+INFO: HHH000406: Using bytecode reflection optimizer
+nov 27, 2024 11:12:28 P. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+nov 27, 2024 11:12:28 P. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+nov 27, 2024 11:12:28 P. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001012: Connecting with JDBC URL [jdbc:mysql://127.0.0.1:3306/obligatoriopa?useSSL=false&allowPublicKeyRetrieval=true]
+nov 27, 2024 11:12:28 P. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+nov 27, 2024 11:12:28 P. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+nov 27, 2024 11:12:28 P. M. org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH10001115: Connection pool size: 20 (min=1)
+nov 27, 2024 11:12:28 P. M. org.hibernate.boot.model.internal.EntityBinder useDiscriminatorColumnForJoined
+WARN: HHH000457: Joined inheritance hierarchy [clases.Usuario] defined explicit @DiscriminatorColumn.  Legacy Hibernate behavior was to ignore the @DiscriminatorColumn.  However, as part of issue HHH-6911 we now apply the explicit @DiscriminatorColumn.  If you would prefer the legacy behavior, enable the `hibernate.discriminator.ignore_explicit_for_joined` setting (hibernate.discriminator.ignore_explicit_for_joined=true)
+nov 27, 2024 11:12:28 P. M. org.hibernate.bytecode.internal.BytecodeProviderInitiator buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : bytebuddy
+nov 27, 2024 11:12:29 P. M. org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+nov 27, 2024 11:12:29 P. M. org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59ac4153] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
