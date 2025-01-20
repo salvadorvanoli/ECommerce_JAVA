@@ -1,5 +1,7 @@
 # ECommerce_JAVA
 
+Proyecto universitario avanzado.
+
 ## Tecnologías:
 - Java
 - Swing
@@ -11,6 +13,7 @@
 - Google Mail API
 - Bootstrap
 - HTML, CSS, JS
+- Manejo de binarios para almacenamiento de imágenes
 
 ## Páginas y funcionalidades:
 - Registro, eliminación, modificación y visualización de productos.
