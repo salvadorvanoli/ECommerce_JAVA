@@ -1,0 +1,389 @@
+body{
+    font-family: 'Source Sans 3';
+}
+
+.flamin-go-pic{
+    width: 90px;
+}
+
+#icono-usuario{
+    font-size: 300%;
+    margin-bottom: 20px;
+}
+
+#icono-usuario2{
+    font-size: 800%;
+    margin:auto;
+}
+
+a.nav-link{
+    max-width: fit-content;
+    color: #C8709A;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.barra-busqueda{
+    border-width: 1px;
+    border-color: black;
+    border-radius: 200px;
+}
+
+.navbar-brand{
+    width: 10%;
+}
+
+#carrito-button{
+    color: #FFFFFF;
+    background-color: #C8709A;
+    border-radius: 5px;
+}
+
+#carrito-button:hover{
+    background-color: #c84383;
+}
+
+.texto-infoOrdenCompra {
+	width: 415px;
+	height: 36px;
+	color: #A45D7F;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1;
+	text-align: left;
+}
+
+
+
+.rectangle-1 {
+    width: 90%;
+	border-color: #AAAAAA;
+	border-width: 1px;
+	border-style: solid;
+    max-height: 80vh;
+    padding: 16px;
+    margin: auto;
+    overflow-y: auto;
+    margin-bottom: 10px !important;
+    cursor: pointer;
+}
+
+.rectangle-2 {
+    width: 100%; 
+    padding: 12px;
+    margin: 8px 0;
+	
+	border-width: 1px;
+}
+.rectangle-3 {
+	width: 80%;
+	height: 60%;
+	padding: 8px 8px 8px 8px;
+	background: #FFFFFF;
+	border-color: #ffffff;
+	border-width: 1px;
+	border-style: solid;
+    margin: auto;
+}
+
+/* Estilo por defecto para el rectangle-2 */
+.rectangle-2 .row {
+    display: flex; /* Usa Flexbox */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+}
+
+/* Media Query para pantallas menores a 760px */
+@media (max-width: 760px) {
+    .rectangle-2 .row {
+        flex-direction: column; /* Cambia la dirección del flex a columna */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .col-md-2,
+    .col-md-4 {
+        flex: none; /* Evita que estos elementos crezcan */
+        margin-bottom: 10px; /* Agrega espacio entre elementos */
+    }
+
+    .col-md-4 {
+        text-align: center; /* Centra el texto para los elementos que están a la derecha */
+    }
+
+    .stepper-container {
+        flex-direction: row; /* Mantén la cantidad y el input en la misma línea */
+        justify-content: center; /* Centra el contenido */
+    }
+
+    /* Opcional: Ajustar tamaños para móviles */
+    .fotosProductos {
+        width: 80px; /* Ajusta el tamaño de la imagen si es necesario */
+        height: auto; /* Mantiene la proporción */
+    }
+
+    .nombresProductos,
+    .numProducto {
+        margin: 0; /* Elimina márgenes superiores */
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .rectangle-1 {
+    width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .rectangle-3 {
+    width: 95%;
+    }
+}
+.fotosProductos {
+	width: 100px;
+	height: 139px;
+	background: #FFFFFF;
+	border-color: #AAAAAA;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 4px 4px 4px 4px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 2%;
+	margin-right: 1%;
+}
+.fotosProductos img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del div */
+    height: 100%; /* Asegura que la imagen ocupe toda la altura del div */
+    object-fit: cover; /* Mantiene la relación de aspecto y recorta si es necesario */
+    border-radius: 4px; /* Redondea las esquinas de la imagen */
+}
+
+
+.nombresProductos {
+    color: #A45D7F;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: left;
+    margin-top: 2%;
+	text-transform: uppercase; 
+}
+
+
+.numProducto {
+	width: 128px;
+	height: 24px;
+	color: #A45D7F;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 1.3;
+	text-align: left;
+	margin-right: 2%;
+	text-transform: uppercase; 
+}
+
+.descripcionProductos {
+    max-width: 100%;
+    overflow: hidden; 
+    text-overflow: ellipsis; /* Muestra "..." al final */
+    display: block; 
+    line-height: 1.5;
+    max-height: 3em;
+    position: relative; 
+    font-weight: 400;
+    font-size: 14px;
+    color: #606060;
+}
+
+.labelCantidad{
+	width: 108px;
+	height: 24px;
+	color: #606060;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 1.3;
+	text-align: center;
+	margin: auto;
+	text-transform: uppercase;
+}
+
+.stepper-container {
+    display: flex;
+    flex-direction: column; 
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+	margin-left: 50%;
+}
+.stepper {
+	width: 70px;
+	height: 41px;
+	padding: 0px 5px 0px 5px;
+	background: #14141400;
+	color: #444444;
+	border-color: #929292;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+	font-weight: 400;
+	font-size: 18px;
+	margin: auto;
+}
+
+.textoSubtotal {
+	width: 90%;
+	height: 24px;
+	color: #606060;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-transform: uppercase; 
+	text-align: right;
+}
+
+.precioProductos {
+	height: 24px;
+	color: #606060;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: right;
+}
+
+.precioProductosSubt {
+	
+	width: 90%;
+	height: 24px;
+	color: #606060;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: right;
+}
+.scrollbar {
+	width: 18px;
+	height: 351px;
+	background: #E6E6E6;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 12px 12px 12px 12px;
+}
+
+.textoResumen {
+	width: 492px;
+	height: 36px;
+	color: #444444;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1;
+	text-align: left;
+}
+
+.subtotal {
+	width: 308px;
+	height: 24px;
+	color: #606060;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.subtotal2 {
+	width: 308px;
+	height: 24px;
+	color: #606060;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: right;
+}
+.envio {
+	width: 308px;
+	height: 24px;
+	color: #606060;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: left;
+	text-transform: uppercase;
+}
+.envio2 {
+	width: 308px;
+	height: 24px;
+	color: #606060;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: right;
+}
+.impuestos {
+	width: 308px;
+	height: 24px;
+	color: #606060;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.impuestos2 {
+	width: 308px;
+	height: 24px;
+	color: #606060;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	text-align: right;
+}
+.total {
+	width: 271px;
+	height: 35px;
+	color: #C8709A;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 1.3;
+	text-align: left;
+	text-transform: uppercase;
+}
+.total2 {
+	width: 271px;
+	height: 35px;
+	color: #C8709A;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 1.3;
+	text-align: right;
+}
+.button-volver {
+	width: 182px;
+	height: 41px;
+	padding: 0px 10px 0px 10px;
+	background: #C8709A;
+	color: #FFFFFF;
+	border-color: #A45D7F;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px 3px 3px 3px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+}
+
+#button-volver-info-reclamo {
+	margin-right: 5%;
+}
+
+.horizontal-line {
+	margin: auto;
+	width: 95%;
+	height: 1px;
+	border-color: #d3d3d3;
+	border-width: 1px;
+	border-style: solid;
+}

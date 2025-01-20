@@ -1,0 +1,436 @@
+body{
+    font-family: 'Source Sans 3';
+}
+
+.flamin-go-pic{
+    width: 90px;
+}
+
+#icono-usuario{
+    font-size: 300%;
+}
+
+a.nav-link{
+    max-width: fit-content;
+    color: #C8709A;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.barra-busqueda{
+    border-width: 1px;
+    border-color: black;
+    border-radius: 200px;
+}
+
+.navbar-brand{
+    width: 10%;
+}
+
+#carrito-button{
+    color: #FFFFFF;
+    background-color: #C8709A;
+    border-radius: 5px;
+}
+
+#carrito-button:hover{
+    background-color: #c84383;
+}
+
+.container-fluid {
+    width: 100%; /* Se asegura que ocupe todo el ancho */
+}
+
+.select-1 {
+    float: right;
+	width: 60%;
+    height: 32px;
+    padding: 4px 8px 4px 8px;
+    background: #F7F6F6;
+    color: #232323;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px 4px 4px 4px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    margin-right: 15px;   
+}
+
+.select-2 {
+    width: 210px;
+    height: 25px;
+    padding: 4px 8px 4px 8px;
+    background: #E6E6E6;
+    color: #232323;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+
+}
+
+.header-1 {
+    margin-bottom: 30px;
+    width: auto;
+    height: 32px;
+}
+
+.div-1 {
+    margin-top: 30px;
+    width: 26%;
+    height: auto;
+    float: left;
+    
+}
+
+.div-2 {   
+    margin-top: 30px;
+    width: 74%;
+    height: auto;
+    float: right;
+}
+
+.rectangle-1 {
+    width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: #F7F6F6;
+    border-color: #929292;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+}
+
+.aside-1 {
+    background: #ff5252;
+    height: 530px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 0px;
+    background: #E6E6E6;
+    color: #7A7A7A;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+
+.scrollbar-1 {
+    width: 18px;
+    height: 530px;
+    background: #E6E6E6;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.dropdown-div {
+    width: 225px;
+    padding: 0px;
+}
+
+.dropdown-style {
+    width: 100%;
+    padding: 0px;
+    background-color: #E6E6E6;
+    border-color: #E6E6E6;
+    border-bottom-color: #000000;
+    border-radius: 0%;
+    color: #000000;
+    text-align: start;
+}
+
+.dropdown-style:hover {
+    background-color: #cecece;
+    border-color: #E6E6E6;
+    border-bottom-color: #000000;
+    color: #313131;
+}
+
+.dropdown-item {
+    position: relative; /* Necesario para posicionar las subopciones */
+}
+
+.sub-options {
+    padding-left: 20px; /* Indentación para las subopciones */
+    display: none; /* Inicialmente ocultar subopciones */
+}
+
+.dropdown-item > input[type="checkbox"]:checked ~ .sub-options {
+    display: block; /* Mostrar subopciones si el checkbox está marcado */
+}
+.image-1 {
+    background: #FFFFFF;
+    border-color: #AAAAAA;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+}
+
+.todo-lodemas{
+    width: 75.5%;
+    height: 100%;
+    padding-right: 0px;
+    padding-bottom: 12px;
+}
+
+.item-estrellas{
+    width: 103.85%;
+    height: 25%;
+    padding: 0;
+    margin: 0;
+}
+
+.item-1 {
+    width: 50%;
+    height: 100%;
+    color: #A45D7F;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    float:left;
+    padding: 0px;
+}
+
+.tienda-x {
+    color: #444444;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    float:left;
+}
+
+.fa-star{
+    height: 25%;
+    width: 10%;
+}
+
+.conjunto_estrellas{
+    float:left;
+    color : #c0c0c0;
+    .checked {
+        color: #6b6b6b;
+    }
+    padding: 0px;
+    font-size: 150%;
+    /* font-size: 30px; */
+    /*justify-content: space-between;*/
+}
+
+.precio{
+    color: #444444;
+    font-weight: 400;
+    font-size: 150%;
+}
+
+.carrito{
+    color: #B8635F;
+    font-size: 250%;
+    text-align: right;
+    justify-content: end;
+}
+
+.carrito:hover{
+    color: #9e5551;
+}
+
+.precio-carrito{
+    width: 103.85%;
+    padding: 0;
+    margin: 0;
+    margin-top: 10%;
+}
+
+.navegador {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.background-rosa{
+    background:#A45D7F ;
+}
+
+.color-rosa{
+    color:#A45D7F
+}
+
+.color-negro{
+    color:#232323;
+}
+
+.color-marron{
+    color:#B8635F
+}
+
+.color-blanco{
+    color: #E6E6E6;
+}
+
+.imagen-utec{
+    border-radius: 6px 6px 6px 6px;  
+    width: 154px;
+    height: 65px;
+}
+
+.scrolleable{
+    overflow-y:scroll;
+}
+
+.navigator-menu{
+    width: 704px;
+    height: 60px;
+    padding: 0px;
+    background: #E6E6E6;
+    border-color: #CCCCCC;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 20%;
+}
+
+.navigator-page{
+    color:#A45D7F;
+    background-color: #E6E6E6;
+}
+
+.navigator-page:hover{
+    color:#884c69;
+    background-color: #cecece;
+}
+
+.pagination .activa .page-link{
+    color: #E6E6E6; 
+    background-color: #A45D7F; 
+    border-color: #A45D7F; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a9a9a9; /* Fondo gris */
+    width: 300px;
+    z-index: 100; /* Asegura que el menú esté por encima de otros elementos */
+    border: 1px solid black;
+    overflow: visible; /* Asegura que el contenido no se oculte si sale del área */
+}
+
+.dropdown-content > div.dropdown {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content div:hover {
+    background-color: #838282;
+}
+
+
+.dropdown:hover > .dropdown-content {
+    display: block;
+}
+
+
+.nested-dropdown {
+    position: relative;
+}
+
+
+.nested-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    left: 100%; /* Alinea el submenú a la derecha del elemento padre */
+    top: 0; /* Comienza desde la parte superior del padre */
+    z-index: 200; /* Asegura que el submenú esté por encima */
+}
+
+
+.nested-dropdown:hover .nested-dropdown-content {
+    display: block;
+}
+
+
+.dropbtn {
+    padding: 0 40px;
+    font-size: 14px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.dropbtnW {
+    background-color: white; 
+    color: black; 
+    padding: 0 40px; 
+    font-size: 14px; 
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100%; 
+    height: 30px; 
+    margin: 0; 
+    line-height: 30px;
+    text-align: left; 
+}
+
+.dropbtn-color{
+	background-color: #d3d3d3;
+	color: black;
+}
+
+
+.categoria-seleccionada {
+    background-color: #198754 !important; /* Fondo verde para categoría seleccionada */
+    color: white !important; /* Texto en blanco */
+}
+
+.categoria-seleccionada:hover{
+    background-color: #11643e; /* Fondo verde para categoría seleccionada */
+    color: white; /* Texto en blanco */
+}
+
+/* ESTILOS DE VALENTIN */
+
+.titulo-producto {
+    color: #A45D7F;
+    font-weight: bold;
+    font-size: 200%;
+    text-align: left;
+}
+
+

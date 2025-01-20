@@ -1,0 +1,115 @@
+body{
+    font-family: 'Source Sans 3';
+}
+
+.flamin-go-pic{
+    width: 90px;
+}
+
+#icono-usuario{
+    font-size: 300%;
+    margin-bottom: 20px;
+}
+
+#icono-usuario2{
+    font-size: 800%;
+    margin:auto;
+}
+
+a.nav-link{
+    max-width: fit-content;
+    color: #C8709A;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.barra-busqueda{
+    border-width: 1px;
+    border-color: black;
+    border-radius: 200px;
+}
+
+.navbar-brand{
+    width: 10%;
+}
+
+#carrito-button{
+    color: #FFFFFF;
+    background-color: #C8709A;
+    border-radius: 5px;
+}
+
+#carrito-button:hover{
+    background-color: #c84383;
+}
+
+.rectangle-1 {
+	width: 50%;
+	padding: 15px 15px 15px 15px;
+	background: #FFFFFF;
+	border-color: #7A7A7A;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 6px 6px 6px 6px;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+	vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+    .rectangle-1 {
+    width: 90%;
+    }
+}
+
+.image-placeholder-1 {
+	width: 88px;
+	height: 88px;
+	background: #00000000;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.textoiniciarSesion {
+	width: 298px;
+	height: 74px;
+	color: #A45D7F;
+	font-weight: 700;
+	font-size: 45px;
+	text-align: center;
+}
+
+.button-cancelar {
+	width: 182px;
+	height: 41px;
+	padding: 0px 10px 0px 10px;
+	background: #EBEBEB;
+	color: #444444;
+	border-color: #EBEBEB;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 6px 6px 6px 6px;
+	font-weight: 600;
+	font-size: 18px;
+	text-align: center;
+}
+
+.button-iniciarSesion {
+	width: 182px;
+	height: 41px;
+	padding: 0px 10px 0px 10px;
+	background: #C8709A;
+	color: #FFFFFF;
+	border-color: #A45D7F;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 6px 6px 6px 6px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+}
+
+main {
+	height: 100vh;
+}

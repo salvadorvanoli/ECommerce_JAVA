@@ -1,0 +1,16 @@
+.absoluto {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    margin: 10px
+}
+
+.linea-resumen {
+    width: 100%;
+    height: 1px;
+    opacity: 30%;
+    border-color: #606060;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #606060;
+}

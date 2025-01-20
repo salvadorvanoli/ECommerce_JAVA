@@ -1,0 +1,39 @@
+body {
+    font-family: 'Source Sans 3';
+}
+
+.flamin-go-pic {
+    width: 90px;
+}
+
+#icono-usuario {
+    font-size: 300%;
+}
+
+a.nav-link {
+    max-width: fit-content;
+    color: #C8709A;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.barra-busqueda {
+    border-width: 1px;
+    border-color: black;
+    border-radius: 200px;
+}
+
+.navbar-brand {
+    width: 10%;
+}
+
+#carrito-button {
+    color: #FFFFFF;
+    background-color: #C8709A;
+    border-radius: 5px;
+}
+
+#carrito-button:hover {
+    background-color: #c84383;
+}

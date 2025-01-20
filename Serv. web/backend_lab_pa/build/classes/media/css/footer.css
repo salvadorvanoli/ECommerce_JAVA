@@ -1,0 +1,23 @@
+.footer-segundaParte-{
+    margin-left: 40px;
+}
+
+.color-rosa{
+    color:#A45D7F
+}
+
+.color-marron{
+    text-transform: uppercase; 
+    color:#B8635F
+    
+}
+
+.imagen-utec{
+    border-radius: 6px 6px 6px 6px;  
+    width: 154px;
+    height: 65px;
+}
+
+footer {
+    padding: 20px;
+}
